@@ -1,0 +1,51 @@
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+
+@media (min-width: 768px){
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+    color: #FFBF00;
+}
+
+.jumbotron .container {
+    max-width: 100rem;
+}
+
+h1{
+    color: #FFBF00;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+.done .card-body {
+    text-decoration: line-through;
+    background-color: #c9c9c9;
+}
+
+.done button {
+    visibility: hidden;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    height: 10rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
